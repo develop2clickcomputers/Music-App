@@ -1,0 +1,38 @@
+<ion-header>
+
+  <ion-navbar color="theme">
+    <ion-buttons left>
+      <button ion-button (tap)="selects()">
+        <ion-icon class="customIcon" color="dark" name="arrow-back"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>Device Memory</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content fullscreen="true">
+
+
+  <ion-card (click)="deviceDetails()">
+    <ion-item class="ripple">
+      <ion-thumbnail item-start>
+        <img src="assets/imgs/memory-card.png">
+      </ion-thumbnail>
+      <h2>32 GB</h2>
+    </ion-item>
+  </ion-card>
+
+
+  <ion-card (click)="deviceDetails()">
+    <ion-item class="ripple">
+      <ion-thumbnail item-start>
+        <img src="assets/imgs/memory-card.png">
+      </ion-thumbnail>
+      <h2>64 GB</h2>
+    </ion-item>
+  </ion-card>
+
+
+</ion-content>

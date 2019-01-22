@@ -1,0 +1,45 @@
+<ion-header>
+
+  <ion-navbar  color="theme">
+    <ion-buttons left>
+      <button ion-button (tap)="selects()">
+        <ion-icon class="customIcon" color="dark" name="arrow-back"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>Device description</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding fullscreen="true">
+
+  <ion-row>
+    <ion-col col-5>
+      <ion-thumbnail>
+        <img src="assets/imgs/sam.png">
+      </ion-thumbnail>
+    </ion-col>
+    <ion-col>
+      <p>RAM : 6GB</p>
+      <p>Color: Red </p>
+      <p>Warranty : Yes</p>
+      <p>Internal Memory : 128 GB</p>
+    </ion-col>
+  </ion-row>
+
+
+  <div>
+    <p><b>Discount:</b> 20%</p>
+    <p><b>Price:</b> 20000</p>
+  </div>
+
+  <div text-center>
+    <button style="margin-bottom: 10px" ion-button round color="theme" (click)="buy_Now()">Buy Now</button>
+  </div>
+
+  <button  ion-button clear float-right color="theme">
+    Help
+  </button>
+
+</ion-content>

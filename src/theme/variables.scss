@@ -38,7 +38,11 @@ $colors: (
   secondary:  #32db64,
   danger:     #f53d3d,
   light:      #f4f4f4,
-  dark:       #222
+  dark:       #222,
+  theme: (
+  base: #06e4d2,
+  contrast: #3a3a3a
+  ),
 );
 
 
@@ -54,6 +58,7 @@ $colors: (
 // Material Design only Sass variables can go here
 
 
+$loading-md-spinner-color: #06e4d2;
 
 
 // App Windows Variables
@@ -86,3 +91,7 @@ $colors: (
 
 @import "roboto";
 @import "noto-sans";
+
+//$toolbar-md-title-text-color: #777;
+//$toolbar-ios-title-text-color: #777;
+//$toolbar-wp-title-text-color: #777;

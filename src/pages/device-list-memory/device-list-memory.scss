@@ -1,0 +1,23 @@
+page-device-list-menory {
+
+
+  /* Ripple effect */
+  .ripple {
+    background-position: center;
+    transition: background 0.8s;
+  }
+  .ripple:hover {
+    background: #ffffff radial-gradient(circle, transparent 1%, #ffffff 1%) center/15000%;
+  }
+  .ripple:active {
+    background: #f1f1f1;
+    background-size: 100%;
+    transition: background 0s;
+  }
+
+  .customIcon {
+    font-size: 1.7em;
+    margin-left: 10px;
+  }
+
+}

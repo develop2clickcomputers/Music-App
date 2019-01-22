@@ -1,0 +1,36 @@
+
+<ion-header>
+
+  <ion-navbar color="theme">
+    <ion-buttons left>
+      <button ion-button (tap)="selects()">
+        <ion-icon class="customIcon" color="dark" name="arrow-back"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>Samsung</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content  fullscreen="true">
+
+  <ion-card  (click)="devicememory()">
+    <ion-item class="ripple">
+    <ion-thumbnail item-start>
+      <img src="assets/imgs/samsung1.jpg">
+    </ion-thumbnail>
+    <h2>Galaxy Note 9</h2>
+    </ion-item>
+  </ion-card>
+
+  <ion-card (click)="devicememory()">
+    <ion-item class="ripple">
+    <ion-thumbnail item-start>
+      <img src="assets/imgs/samsung2.jpg">
+    </ion-thumbnail>
+    <h2>Samsung S7 Edge</h2>
+    </ion-item>
+  </ion-card>
+
+</ion-content>

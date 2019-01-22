@@ -1,0 +1,42 @@
+<ion-header>
+
+  <ion-navbar color="theme">
+    <ion-buttons left>
+      <button ion-button (tap)="selects()">
+        <ion-icon class="customIcon" color="dark" name="arrow-back"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>Mobile Info</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content fullscreen="true">
+
+  <ion-card>
+    <br>
+    <ion-item>
+      <ion-avatar item-start>
+        <img src="assets/imgs/sam.png">
+      </ion-avatar>
+      <h2>Galaxy Note 9</h2>
+      <p>November 5, 1955</p>
+    </ion-item>
+
+    <img src="assets/imgs/images.jpeg" height="220px">
+
+    <br>
+    <button style="margin-bottom: 10px" float-right ion-button round color="theme" (click)="Device_Dis()">₹2000</button>
+
+    <ion-card-content>
+      <p>RAM : 6GB</p>
+      <p>Color: Red </p>
+      <p>Warranty : Yes</p>
+      <p>Internal Memory : 128 GB</p>
+    </ion-card-content>
+
+
+  </ion-card>
+
+</ion-content>
